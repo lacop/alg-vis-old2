@@ -23,7 +23,7 @@ import algvis.core.Algorithm;
 import algvis.core.NodeColor;
 
 public class BSTInsert extends Algorithm {
-    private final BST T;
+	protected final BST T;
     private final int K;
     private final BSTNode v;
     private final HashMap<String, Object> result = new HashMap<String, Object>(); // "inserted",

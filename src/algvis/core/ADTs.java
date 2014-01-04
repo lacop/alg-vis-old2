@@ -17,6 +17,7 @@
  ******************************************************************************/
 package algvis.core;
 
+import algvis.ds.cacheoblivious.statictree.StaticTree;
 import algvis.ds.intervaltree.IntervalTrees;
 import algvis.ds.priorityqueues.MeldablePQ;
 import algvis.ds.priorityqueues.PriorityQueue;
@@ -39,8 +40,9 @@ public class ADTs {
         MeldablePQ.class,    // insert, decrease-key, delete-min, meld
         UnionFind.class,     // make-set, union, find
         Trie.class,          // insert, find, delete
-        IntervalTrees.class
-    // insert, find sum/min/max of interval, decrease-key
+        IntervalTrees.class, // insert, find sum/min/max of interval,
+							 // decrease-key
+        StaticTree.class
     };
     public static final int N = ADT.length;
 
